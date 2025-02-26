@@ -4,7 +4,7 @@ public class Main {
         int clientOS = 0;
         if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
-        } else if (clientOS == 0) {
+        } else if (clientOS == 1) {
             System.out.println("Установите версию приложения для Android по ссылке");
         } else {
             System.out.println("Такого значения нет");
@@ -20,25 +20,25 @@ public class Main {
 
         System.out.println("Задача №2");
 
-        int clientO = 0;
+        int clientOSDevice = 0;
         int clientDeviceYear = 2014;
-        if (clientO == 0 && clientDeviceYear < 2015) {
+        if (clientOSDevice == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-        } else if (clientO == 0 && clientDeviceYear >= 2015) {
+        } else if (clientOSDevice == 0 && clientDeviceYear >= 2015) {
             System.out.println("Установите стандартную версию приложения для iOS по ссылке");
-        } else if (clientO == 1 && clientDeviceYear < 2015) {
+        } else if (clientOSDevice == 1 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для Андройд по ссылке");
         } else {
             System.out.println("Установите стандартную версию приложения для Андройд по ссылке");
         }
 
-        int clientA = 1;
-        int clientDeviceYearA = 2016;
-        if (clientA == 0 && clientDeviceYearA < 2015) {
+        int clientAndroidDevice = 1;
+        int clientDeviceYearSecond = 2016;
+        if (clientAndroidDevice == 0 && clientDeviceYearSecond < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-        } else if (clientA == 0 && clientDeviceYearA >= 2015) {
+        } else if (clientAndroidDevice == 0 && clientDeviceYearSecond >= 2015) {
             System.out.println("Установите стандартную версию приложения для iOS по ссылке");
-        } else if (clientA == 1 && clientDeviceYearA < 2015) {
+        } else if (clientAndroidDevice == 1 && clientDeviceYearSecond < 2015) {
             System.out.println("Установите облегченную версию приложения для Андройд по ссылке");
         } else {
             System.out.println("Установите стандартную версию приложения для Андройд по ссылке");
